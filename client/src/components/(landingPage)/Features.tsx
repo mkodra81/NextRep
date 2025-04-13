@@ -100,7 +100,7 @@ const Features = ({ handleGetStarted }: { handleGetStarted: () => void }) => {
       </div>
 
       {/* Sticky Image (desktop) / Responsive Image (mobile) */}
-      <ScrollFadeIn className="block w-3/5 sticky top-60 md:top-36 h-[400px] md:px-10 ">
+      <ScrollFadeIn className="block w-3/5 sticky top-44 md:top-36 h-[400px] md:px-10">
         <img
           src={currentImage}
           loading="lazy"
@@ -134,11 +134,11 @@ const FeatureCard = ({
     <ScrollFadeIn className="md:border rounded-lg p-4 sm:p-6 md:p-10 md:shadow-md mb-6 bg-transparent md:bg-gray-100 md:hover:shadow-lg transition-shadow duration-300 ease-in-out">
       <div className="flex flex-col sm:flex-row items-center mb-6 sm:mb-10 gap-4">
         <div>{icon}</div>
-        <h3 className="text-md sm:text-2xl md:text-4xl font-semibold">
+        <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold">
           {title}
         </h3>
       </div>
-      <p className="text-gray-700 text-xs sm:text-base md:text-lg mb-6">
+      <p className="text-gray-700 text-sm sm:text-base md:text-lg mb-6">
         {description}
       </p>
       <div className="flex justify-center sm:justify-start">

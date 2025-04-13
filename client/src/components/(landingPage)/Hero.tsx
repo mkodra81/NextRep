@@ -1,4 +1,3 @@
-import { useInView } from "@/hooks/useInView";
 import { Button } from "@/components/ui/button";
 import { ScrollFadeIn } from "@/components/ScrollFadeIn";
 
